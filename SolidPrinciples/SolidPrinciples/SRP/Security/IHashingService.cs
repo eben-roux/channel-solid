@@ -1,6 +1,6 @@
 ﻿namespace SolidPrinciples.SRP.Security
 {
-    public interface IHasingService
+    public interface IHashingService
     {
         byte[] Hash(string value);
     }
